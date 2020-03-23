@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{F182BAB8-98F7-48CD-AC11-F2B72CE8CF7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{DFF7E5ED-469A-4260-BF43-34845F9C9BD8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{5FA3857A-4C97-473B-AAAC-6282F07016FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Data", "Infra.Data", "{E769A896-477A-4BDC-BF76-0074CD7BA42D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.IoC", "Infra.IoC", "{3BB83CE7-40F1-475D-8CFC-551FD4417F89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sattu.Domain", "Sattu.Domain\Sattu.Domain.csproj", "{19D58BCF-B9DD-4BDA-B7E5-1A1F917FBA88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19D58BCF-B9DD-4BDA-B7E5-1A1F917FBA88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19D58BCF-B9DD-4BDA-B7E5-1A1F917FBA88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19D58BCF-B9DD-4BDA-B7E5-1A1F917FBA88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19D58BCF-B9DD-4BDA-B7E5-1A1F917FBA88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{19D58BCF-B9DD-4BDA-B7E5-1A1F917FBA88} = {5FA3857A-4C97-473B-AAAC-6282F07016FB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ACE380A9-8BE5-4CED-B40E-E2850515B006}
+	EndGlobalSection
+EndGlobal
